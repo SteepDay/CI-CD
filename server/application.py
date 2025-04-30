@@ -1,10 +1,10 @@
 import http.server
 import socketserver
 
-class TestMe:
-    def take_five(self):
+class TestMe: """Класс для тестирования работы"""
+    def take_five(self): """Возвращает число 5"""
         return 5
-    def port(self):
+    def port(self): """Возвращает порт по умолчанию"""
         return 8000
 if __name__ == '__main__':
     Handler = http.server.SimpleHTTPRequestHandler
